@@ -1,6 +1,7 @@
 const container = document.querySelector("#container");
 let square = []; //array to hold grid
 let grid; //for storing grid size
+
 function createGrid(size = 16) {
     for (let i = 0; i < size**2; i++) {
         square[i] = document.createElement('div');
@@ -16,5 +17,23 @@ function colorGrid (color = 'colorBlack') {
     }))  
 }
 
+const button = document.querySelector('#gridSize');
+function buttonClick () {
+    button.addEventListener('click', () => {
+        while (true) {
+            grid = prompt('Enter grid size <= 100')
+            if (grid>100 && grid>0){
+            } else if (grid <=100 && grid >0) {
+                break;
+            } else break;
+        }
+        square.forEach((item) => item.remove());
+        createGrid(grid);
+        colorGrid();
+    })
+}
+
+
 createGrid();
+buttonClick();
 colorGrid();
