@@ -4,8 +4,6 @@
     margin-top: 2rem;
 }
 .square {
-    height: 2rem;
-    width: 2rem;
     background-color: white;
     border: 1px solid black;
 }
@@ -13,3 +11,4 @@
 .colorBlack {
     background-color: black;
 }
+
