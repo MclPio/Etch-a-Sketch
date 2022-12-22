@@ -16,10 +16,11 @@ button {
     border : 1px solid black;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
-
+    font-size: xx-large;
 }
 
 body {
     background-color: darkseagreen;
     font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
 }
