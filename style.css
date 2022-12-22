@@ -12,3 +12,14 @@
     background-color: black;
 }
 
+button {
+    border : 1px solid black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    background-color: darkseagreen;
+    font-family: 'Courier New', Courier, monospace;
+}

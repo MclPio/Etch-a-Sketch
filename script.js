@@ -40,7 +40,6 @@ function buttonClick () {
     })
 }
 
-
 createGrid();
 buttonClick();
 colorGrid();
