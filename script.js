@@ -10,4 +10,11 @@ function createGrid(size = 16) {
     }
 }
 
+function colorGrid (color = 'colorBlack') {
+    square.forEach((item) => item.addEventListener('mouseover', () => {
+        item.classList.add(color); 
+    }))  
+}
+
 createGrid();
+colorGrid();
