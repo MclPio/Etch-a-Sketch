@@ -9,6 +9,8 @@ function createGrid(size = 16) {
         container.appendChild(square[i]);
         grid = size;
     }
+    container.style.gridTemplateColumns = `repeat(${grid}, 2rem)`;
+    container.style.gridTemplateRows = `repeat(${grid}, 2rem)`;
 }
 
 function colorGrid (color = 'colorBlack') {
