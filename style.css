@@ -17,10 +17,38 @@ button {
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
+    width: 150px;
+    height: 150px;
 }
 
 body {
     background-color: darkseagreen;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#navMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menuContainer {
+    display: flex;
+    margin-right: 4rem;
+    flex-direction: column;
+}
+
+#colors {
+    display: flex;
+    flex-direction: column;
 }
